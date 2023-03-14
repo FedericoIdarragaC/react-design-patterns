@@ -1,5 +1,6 @@
 
 import ContainerComponents from './ContainerComponents/ContainerComponents';
+import CustomHooks from './CustomHooks/CustomHooks';
 import HighOrderComponents from './HighOrderComponents/HighOrderComponents';
 import LayoutComponent from './LayoutComponents/LayoutComponets';
 import Lists from './Lists/Lists';
@@ -8,7 +9,7 @@ import UncontrolledControlledComponents from './Uncontrolled&ControlledComponent
 
 function App() {
   return (
-    <HighOrderComponents />
+    <CustomHooks />
   );
 }
 
